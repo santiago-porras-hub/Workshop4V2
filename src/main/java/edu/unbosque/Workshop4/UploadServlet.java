@@ -69,7 +69,7 @@ public class UploadServlet extends HttpServlet {
             sb.append(c);
         }
         String output = sb.toString();
-        info.setImagename(output);
+        info.setImagename(output+".png");
         list2.add(info);
         file.writeFile(list2);
 

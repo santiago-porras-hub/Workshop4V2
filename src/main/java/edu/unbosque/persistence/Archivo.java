@@ -14,7 +14,7 @@ public class Archivo {
     public Archivo(){
 
     }
-    private static String FILE = "C:\\Users\\santi\\Downloads\\Workshop4-89bc620cde426c860b2b417d781380e056b061a8\\target\\info.csv";
+    private static String FILE = "C:\\Users\\santi\\Workshop4V2\\target\\info.csv";
 
     public ArrayList<lista> readFile() {
         ArrayList<lista> list = new ArrayList<lista>();
@@ -58,7 +58,7 @@ public class Archivo {
 
     public void writeFile(ArrayList<lista> list) throws IOException{
 
-        FileWriter csvWriter = new FileWriter("C:\\Users\\santi\\Downloads\\Workshop4-89bc620cde426c860b2b417d781380e056b061a8\\target\\info.csv");
+        FileWriter csvWriter = new FileWriter("C:\\Users\\santi\\Workshop4V2\\target\\info.csv");
 
         for (lista info : list) {
 
